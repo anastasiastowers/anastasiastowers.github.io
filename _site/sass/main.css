@@ -1,0 +1,47 @@
+/*
+Error: Invalid CSS after "...ial, sans-serif": expected "{", was ";"
+        on line 7 of css/main.scss
+
+2: ---
+3: # Only the main Sass file needs front matter (the dashes are enough)
+4: ---
+5: 
+6: // Our variables
+7: $base-font-family: Helvetica, Arial, sans-serif;
+8: $base-font-size:   16px;
+9: $small-font-size:  $base-font-size * 0.875;
+10: $base-line-height: 1.5;
+11: 
+12: $spacing-unit:     30px;
+
+Backtrace:
+css/main.scss:7
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1162:in `expected'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1098:in `expected'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1093:in `tok!'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:638:in `block'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:632:in `ruleset'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:657:in `block_child'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:42:in `parse'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/engine.rb:403:in `_to_tree'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/listen-2.10.1/lib/listen/listener.rb:305:in `call'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/listen-2.10.1/lib/listen/listener.rb:305:in `_process_changes'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/listen-2.10.1/lib/listen/listener.rb:269:in `block in _wait_for_changes'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/listen-2.10.1/lib/listen/listener.rb:252:in `loop'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/listen-2.10.1/lib/listen/listener.rb:252:in `_wait_for_changes'
+/Users/Anastasia/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/listen-2.10.1/lib/listen/listener.rb:341:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ial, sans-serif\": expected \"{\", was \";\"\A         on line 7 of css/main.scss\A \A 2: ---\A 3: # Only the main Sass file needs front matter (the dashes are enough)\A 4: ---\A 5: \A 6: // Our variables\A 7: $base-font-family: Helvetica, Arial, sans-serif;\A 8: $base-font-size:   16px;\A 9: $small-font-size:  $base-font-size * 0.875;\A 10: $base-line-height: 1.5;\A 11: \A 12: $spacing-unit:     30px;"; }
