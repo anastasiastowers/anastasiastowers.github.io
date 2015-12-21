@@ -16,7 +16,12 @@ body {
   margin-top: 35%
 }
 
-.first-block h1, .first-block h3 {
+.first-block h1, .first-block h3, .first-block i {
   color: #fff;
   opacity: 0.8;
+}
+
+.first-block i {
+  font-size: 25px;
+  margin-right: 10px;
 }
