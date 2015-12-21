@@ -1,3 +1,7 @@
+body {
+  color: #202F4F;
+}
+
 .first-block {
   height: 100vh;
   min-height: 300px;
@@ -6,6 +10,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.first-block-content {
+  margin-top: 35%
 }
 
 .first-block h1, .first-block h3 {
