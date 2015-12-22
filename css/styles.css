@@ -15,6 +15,15 @@ body {
   margin-top: 35%
 }
 
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
 .first-block h1, .first-block h3, .first-block i {
   color: #fff;
   opacity: 0.8;
