@@ -158,11 +158,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #5071b8;
-  transition: all 0.5s ease; }
+  color: #8098cc;
+  text-decoration: none;
+  transition: all 0.5s ease 0s; }
 a:hover {
-  color: #5071b8;
-  transition: all 0.5s ease; }
+  color: #4769b0; }
 
 
 /* Buttons

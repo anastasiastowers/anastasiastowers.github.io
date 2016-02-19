@@ -73,16 +73,7 @@ ul li {
 }
 
 .third-block p {
-  color: #fff;
-}
-
-a {
-  text-decoration: none;
-  transition: all 0.5s ease;
-}
-
-a:hover {
-  opacity: 0.4;
+  color: #8098cc;
 }
 
 @media screen and (min-width: 480px) {
@@ -96,4 +87,12 @@ a:hover {
     height: 100vh;
     min-height: 600px;
   }
+}
+
+.third-block .columns img {
+  transition: all 0.5s ease 0s;
+}
+
+.third-block .columns:hover img, .third-block .columns:hover p {
+  opacity: 0.4;
 }
