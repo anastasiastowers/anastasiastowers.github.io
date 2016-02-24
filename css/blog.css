@@ -1,0 +1,12 @@
+body {
+  color: #202F4F;
+}
+.title {
+  background-color: #202F4F;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.breadcrumbs li, .breadcrumbs i {
+  display: inline;
+}
