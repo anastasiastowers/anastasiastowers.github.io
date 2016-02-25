@@ -96,3 +96,12 @@ ul li {
 .third-block .columns:hover img, .third-block .columns:hover p {
   opacity: 0.4;
 }
+
+.experiments {
+  margin-top: 30px;
+}
+
+.experiments li {
+  display: inline;
+  padding: 0;
+}
