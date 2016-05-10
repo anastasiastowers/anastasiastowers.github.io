@@ -1,14 +1,13 @@
 body {
-  color: #202F4F;
+  color: #888;
 }
 
 .first-block {
+  text-align: center;
   min-height: 300px;
-  background: url(../images/rain.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(../images/Icon.svg) no-repeat center center fixed;
+  background-size: 60%;
+  background-color: #FFD6D2;
 }
 
 .first-block-content {
@@ -26,7 +25,11 @@ body {
 
 .first-block h1, .first-block h3, .first-block i {
   color: #fff;
-  opacity: 0.8;
+}
+
+.first-block h3 {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .first-block i {
@@ -40,7 +43,7 @@ body {
 }
 
 .third-block {
-  background-color: #202F4F;
+  background-color: #FFD6D2;
 }
 
 .row .first {
@@ -55,7 +58,7 @@ ul li {
   padding-bottom: 5px;
   margin-bottom: 5px;
   margin-right: 5px;
-  border: 2px solid #202F4F;
+  border: 2px solid #888;
 }
 
 .columns img {
@@ -73,12 +76,12 @@ ul li {
 }
 
 .third-block p {
-  color: #8098cc;
+  color: #FF5454;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 719px) {
   .first-block {
-    min-height: 500px;
+    min-height: 550px;
   }
 }
 
@@ -104,4 +107,5 @@ ul li {
 .experiments li {
   display: inline;
   padding: 0;
+  border: none;
 }
