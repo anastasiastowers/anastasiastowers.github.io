@@ -10,6 +10,7 @@ body {
   background: url(../images/Icon.svg) no-repeat center center fixed;
   background-size: 60%;
   background-color: #FFD6D2;
+  position: relative;
 }
 
 .splash-content {
