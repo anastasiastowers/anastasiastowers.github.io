@@ -2,16 +2,27 @@ body {
   color: #888;
 }
 
-.first-block {
+.splash {
+  position: relative;
+  width: 100%;
+  height: 100vh;
   text-align: center;
-  min-height: 300px;
   background: url(../images/Icon.svg) no-repeat center center fixed;
   background-size: 60%;
   background-color: #FFD6D2;
 }
 
-.first-block-content {
-  margin-top: 35%
+.splash-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  max-width: 960px;
+  transform: translate(-50%, -50%);
+}
+
+.email-icon {
+  display: inline-block;
 }
 
 .avatar {
@@ -23,89 +34,81 @@ body {
   margin-bottom: 20px;
 }
 
-.first-block h1, .first-block h3, .first-block i {
+.splash h1, .splash h3, .splash i {
   color: #fff;
 }
 
-.first-block h3 {
+.splash h3 {
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.first-block i {
+.splash i {
   font-size: 25px;
   margin-right: 10px;
 }
 
-.second-block, .third-block {
+.details, .extras, .contact {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.third-block {
-  background-color: #FFD6D2;
+.details p {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
 
-.row .first {
-  margin-left: 0;
-}
-
-ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  border: 2px solid #888;
-}
-
-.columns img {
-  width: 100%;
-}
-
-.columns p {
-  text-align: center;
-  margin-bottom: 10px;
-  color: #202F4F;
-}
-
-.third-block {
+.extras {
+  background-color: #FF5454;
   color: #fff;
 }
 
-.third-block p {
-  color: #FF5454;
+.extras .skills {
+  margin-top: 25px;
+}
+
+.extras .skills ul h6 {
+  margin-bottom: 5px;
+}
+
+.extras .skills ul h6 i {
+  margin-right: 10px;
+  font-size: 20px;
+  transform: translateY(2.5px);
+  max-width: 20px;
+}
+
+.extras .skills ul h6 i.fa-exchange {
+  ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+}
+
+.extras .skills ul li {
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: 30px;
+}
+
+.contact .resume, .contact .preferred-environment {
+  text-align: center;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 719px) {
-  .first-block {
-    min-height: 550px;
+  .splash {
+    min-height: 400px;
+  }
+  .details p {
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 720px) {
-  .first-block {
+  .splash {
     height: 100vh;
     min-height: 600px;
   }
-}
-
-.third-block .columns img {
-  transition: all 0.5s ease 0s;
-}
-
-.third-block .columns:hover img, .third-block .columns:hover p {
-  opacity: 0.4;
-}
-
-.experiments {
-  margin-top: 30px;
-}
-
-.experiments li {
-  display: inline;
-  padding: 0;
-  border: none;
 }
