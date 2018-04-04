@@ -2,8 +2,8 @@
 // Random encryption key feature coded by Andrew Moulden
 // This code is freeware provided these four comment lines remain intact
 // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-{ coded = "PmPB6PBWP@B6xd4EB.WmCx"
-  key = "yV2TxRXN1SD7jp8kfUuAdhgzOivbYtanIseZqlCrHLG3oc0WKQM6PmJB459FwE"
+{ coded = "2y2IM2I12.P.IMbmnRI@Cu21z.jbu"
+  key = "ehBm91apFb7EGUQrMDs30g5JlqPWjnN8udX2wKiTxOofRHAIVtCZvz4YSLyk6c"
   shift=coded.length
   link=""
   for (i=0; i<coded.length; i++) {
