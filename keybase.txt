@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/anastasiastowers
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://anastasia.stowers.info
+  * I am anastasiastowers (https://keybase.io/anastasiastowers) on keybase.
+  * I have a public key with fingerprint 89EC 91DF 1C4B 4BA1 2E74  9006 884C 8430 1CCC AECA
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101e55e5a217d956d7e640b76f46791217d63cc874b247e3c37b75a75d236c6d4330a",
+      "fingerprint": "89ec91df1c4b4ba12e749006884c84301cccaeca",
+      "host": "keybase.io",
+      "key_id": "884c84301cccaeca",
+      "kid": "0101e55e5a217d956d7e640b76f46791217d63cc874b247e3c37b75a75d236c6d4330a",
+      "uid": "03c4a855117cf6857e58821b5a003f19",
+      "username": "anastasiastowers"
+    },
+    "service": {
+      "hostname": "anastasia.stowers.info",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1614207925,
+  "expire_in": 157680000,
+  "prev": "a1099d82447b5a29bb34e15c579ff69510fc4f50c299b92d95917f98bf5af044",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIsAnicrVJbSBVBGD528XLoYnZ7qKAWw0qTnd2ZnZ3Thcyg6EKoSCTmcXZ2Rhd1
+93R2texuRQQRlRAUVvRgkV1AiuiC5KULRIRkUnQhCdGHXqKgiChqtuwlemweZph/
+vu+b7/v5740fHYmmLG7NZnd2x0XKo+62+kil8er6dsXy7EYltl2p4b8OXmtzP4jX
+OLYSU1SgAo4QR1QD2CbIsDE3oGphQ0ADExBWDZ0xE0NLg5jrTMcWRhQjW9MNZthQ
+11Wq5CnCcat4MpF03EDKmoQzAmwBGLSgRYHGMSSqapgmZCbUVcAYo5yFxGrPDxnS
+nEV9nu94siYv8V/2/oH/z77rf8vpDFITIQAwE4aJMEemqQELUVXVBSAh0OdJl9Zx
+iaYu9QPqO3L3tvCkr+zMU+Rrg8N42OAw0d/I/BFovuOKMGEi6QUe82olpjoIEn4s
+1AgaEyFpC7fiI3Jxy3Ft2VnJaJBsx3OVGJBIFjihPjAA1FRMNJSn8K0JJ8njTohA
+2DBVucJ/eEPoA6iE2KYGIZaZNGJZOuQAMYSJEAZBQBUMCqQyjRCLaLKhBGBBTEsg
+KlQIlTDgZtdTYljapFVS0neqXBrUJ7mys6erfEwkJRpJHTsqnLhINCPzzxyyt2k/
+KjMr0soOLZzZ3FryMqO2fMGtRY2rxpXuT61cRl8UDa+e8GHDKtQ/qWnW0ZY9Mz4/
+e/35pDgyv3Rg7blrXWWlZwe+RLpuThXF4w+mdxYXFVW0iTdKTkH9opaepoI1qXfv
+t14I5hU8/Zbbc2JW+fqxet/Bd9kr2t9mN+sP9p4pR0vNA8Mz8298mrswrW/2s/Zl
+084rR5eMGe6lN16pOwZr0tM29nYc39T/IHp28b41p9d9Sv96s6+n9GLWqcK6odET
+6w5nssFbeu7lfXOiV7zC7+eWdB94nDPDeX67bJtefams4+rzIj/RN73kjNnyrenY
+lF0f32eVZO6OFfZeWdt5+cnKycuH2voftv8E180/OQ==
+=7Uhv
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/anastasiastowers
+
+==================================================================
